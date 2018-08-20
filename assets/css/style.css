@@ -1,0 +1,27 @@
+/* Universal Styles */
+body{
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 950px;
+  text-align: center;
+}
+
+/* Start Menu Setting */
+.start-menu{
+  margin: auto;
+}
+
+.logo {
+  height: auto;
+  width: 100%;
+}
+
+.start-btn {
+  margin-top: 20px;
+  background-color: #f12f2f
+}
+
+
+
