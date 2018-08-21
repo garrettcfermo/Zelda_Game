@@ -35,6 +35,12 @@ body{
 .Instructions {
   display: none;
   margin-top: 60px;
-  
 }
 
+.col-md-7 {
+  margin-left: 80px;
+}
+
+.start-inst-btn {
+  margin-left: 10px;
+}
