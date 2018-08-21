@@ -7,6 +7,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Zelda Wink Waker Game</title>
 
+<!-- fonts -->
+<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+
   <!-- Favicon -->
   <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
 
@@ -21,24 +24,58 @@
 <body>
 
   <!-- Start Menu -->
-<div class="container start-menu">
-  <div class="row">
-    <div class="col-md-12">
-      <img class="logo"src="assets/images/logo.png" alt="Game Logo">
+  <div class="container start-menu">
+    <div class="row">
+      <div class="col-md-12">
+        <img class="logo" src="assets/images/logo.png" alt="Game Logo">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <button type="button" class="btn-lg btn-danger start-btn">Start Game!</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <button type="button" class="btn-lg btn-light inst-btn">Instructions!</button>
+      </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-12">
-    <button type="button" class="btn-lg btn-danger start-btn">Start Game!</button>
+
+
+
+  <!-- Instruction Menu -->
+  <div class="container Instructions">
+    <div class="row">
+      <div class="col-md-3">
+        <img class="instructor" src="assets/images/sword_trainer.png" alt="Instructor">
+      </div>
+      <div class="col-md-7 offset-1">
+        <h2>Instructions</h2>
+        <p>Hello my name is Orca. I am here to teach you how to play the game. Below are all the rules to the game! When
+          you are ready to play go ahead push the Start Game! Enjoy! </p>
+        <ol>
+          <li>Step 1:</li>
+          <li>Step 2:</li>
+          <li>Step 3:</li>
+          <li>Step 4:</li>
+        </ol>
+        <button type="button" class="btn-lg btn-light back-btn">Back</button>
+        <button type="button" class="btn-lg btn-danger start-inst-btn">Start Game!</button>
+      </div>
     </div>
   </div>
-</div>
 
 
-<!-- Theme Song -->
-<audio  autoplay loop>
-  <source src="assets/images/theme_song.mp3" type="audio/mpeg">
-</audio>
+
+
+  <!-- Game -->
+
+
+  <!-- Theme Song -->
+  <audio autoplay loop>
+    <source src="assets/images/theme_song.mp3" type="audio/mpeg">
+  </audio>
 
 
 

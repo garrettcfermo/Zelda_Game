@@ -4,13 +4,15 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 950px;
-  text-align: center;
+  height: 900px;
+  font-family: "Acme"
+ 
 }
 
-/* Start Menu Setting */
+/* Start Menu styling */
 .start-menu{
-  margin: auto;
+  margin-top: 60px;
+   text-align: center;
 }
 
 .logo {
@@ -20,8 +22,19 @@ body{
 
 .start-btn {
   margin-top: 20px;
-  background-color: #f12f2f
+  background-color: #f12f2f;
+}
+
+.inst-btn {
+  margin-top: 20px;
 }
 
 
+/* Instruction Style*/
+
+.Instructions {
+  display: none;
+  margin-top: 60px;
+  
+}
 
