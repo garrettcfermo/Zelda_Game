@@ -5,13 +5,14 @@ body{
   background-size: cover;
   background-position: center;
   height: 900px;
-  font-family: "Acme"
+  font-family: "Acme";
+  
  
 }
 
 /* Start Menu styling */
 .start-menu{
-  margin-top: 60px;
+  margin-top: 50px;
    text-align: center;
 }
 
@@ -43,4 +44,23 @@ body{
 
 .start-inst-btn {
   margin-left: 10px;
+}
+
+
+/* Game Styles */
+
+.game{
+  display: none;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.atk-btn-row {
+  justify-content: center;
+  margin: 8px;
+}
+
+.atk-btn{
+  background-color: #0d9263; 
+  border: 1px #d4ce46 solid  
 }
