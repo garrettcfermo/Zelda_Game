@@ -6,13 +6,11 @@ body{
   background-position: center;
   height: 900px;
   font-family: "Acme";
-  
- 
 }
 
-/* Start Menu styling */
+/* Start Menu Styles*/
 .start-menu{
-  margin-top: 50px;
+  margin-top: 0px;
    text-align: center;
 }
 
@@ -31,11 +29,11 @@ body{
 }
 
 
-/* Instruction Style*/
-
+/* Instruction Styles*/
 .Instructions {
   display: none;
   margin-top: 60px;
+  font-size: 20px;
 }
 
 .col-md-7 {
@@ -48,7 +46,6 @@ body{
 
 
 /* Game Styles */
-
 .game{
   display: none;
   margin-top: 60px;
