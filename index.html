@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Zelda Wink Waker Game</title>
+
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+
+<body>
+  <!-- Start Menu -->
+  <div class="container start-menu">
+    <div class="row">
+      <div class="col-md-12">
+        <img class="logo" src="assets/images/logo.png" alt="Game Logo">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <button type="button" class="btn-lg btn-light inst-btn">Instructions!</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <button type="button" class="btn-lg btn-danger start-btn">Start Game!</button>
+      </div>
+    </div>
+  </div>
+ 
+
+  <!-- Instruction Menu -->
+  <div class="container Instructions">
+    <div class="row">
+      <div class="col-md-3">
+        <img class="instructor" src="assets/images/sword_trainer.png" alt="Instructor">
+      </div>
+      <div class="col-md-7 offset-1 ">
+        <h2>Instructions</h2>
+        <p>Hello my name is Orca. I am here to teach you how to play the game. Below are all the rules to the game! When
+          you are ready to play go ahead push the Start Game! Enjoy! </p>
+        <ol>
+          <li>Step 1: Have Fun!!</li>
+          <li>Step 2: Attack the Enemies with your items. Their attack rate will vary by Enemy</li>
+          <li>Step 3: Beat all Enemies to win the Game!</li>
+          <li>Step 4: Don't Die</li>
+        </ol>
+        <button type="button" class="btn-lg btn-light back-btn">Back</button>
+        <button type="button" class="btn-lg btn-danger start-inst-btn">Start Game!</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Game -->
+  <div class="container game">
+    <div class="row">
+      <div class="col-md-4 hero-col">
+        <div class="row">
+          <img src="assets/images/link.png" alt="Link Character">
+        </div>
+        <div class="row hero-health">
+        </div>
+      </div>
+      <div class="col-md-4 attack-col">
+        <h4>Attacks!</h4>
+      </div>
+      <div class="col-md-4 boss-col">
+        <div class="row boss-img">
+        </div>
+        <div class="row boss-health">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Theme Song -->
+  <audio autoplay loop>
+    <source src="assets/images/theme_song.mp3" type="audio/mpeg">
+  </audio>
+
+  
+  <!-- Java Script -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
