@@ -32,25 +32,26 @@ $('.start-btn').on('click', function () {
 // --------------------------------------------------------------------------
 
 
+
 // Functions
 // --------------------------------------------------------------------------
 // Boss Function (Images/Health)
 function boss() {
   if (bossNumber === 1) {
     $('.boss-img').html(`
-          <img src="assets/images/boss_1.png" alt="boss_1">
+          <img src="assets/images/B_1.png" alt="boss_1">
           `)
     bossHealth = 4
   }
   if (bossNumber === 2) {
     $('.boss-img').html(`
-          <img src="assets/images/boss_2.png" alt="boss_2">
+          <img src="assets/images/B_2.png" alt="boss_2">
           `)
     bossHealth = 6
   }
   if (bossNumber === 3) {
     $('.boss-img').html(`
-          <img src="assets/images/boss_3.png" alt="boss_3">
+          <img src="assets/images/B_3.png" alt="boss_3">
           `)
     bossHealth = 6
   }
@@ -74,6 +75,7 @@ function health() {
   }
 }
 
+
 // Game Over Function
 function gameOver() {
   $('.game').html(`
@@ -84,6 +86,7 @@ function gameOver() {
     </div>
   `)
 }
+
 
 // Win Function
 function winGame() {
@@ -96,6 +99,7 @@ function winGame() {
     </div>
   `)
 }
+
 
 // Reset Attack Rate Function
 function reset() {
