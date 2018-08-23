@@ -99,9 +99,9 @@ function winGame() {
 
 // Reset Attack Rate Function
 function reset() {
-  $('#attack-rate-1').attr('data-attack', Math.floor(Math.random() * 4))
-  $('#attack-rate-2').attr('data-attack', Math.floor(Math.random() * 4))
-  $('#attack-rate-3').attr('data-attack', Math.floor(Math.random() * 4))
+  $('#attack-rate-1').attr('data-attack', Math.floor(Math.random() * 5))
+  $('#attack-rate-2').attr('data-attack', Math.floor(Math.random() * 5))
+  $('#attack-rate-3').attr('data-attack', Math.floor(Math.random() * 5))
 }
 // --------------------------------------------------------------------------
 
@@ -116,7 +116,7 @@ let heroHealth = 8
 for (i = 1; i <= 3; i++) {
   $('.attack-col').append(`
         <div class="row atk-btn-row">
-        <button type="button" id="attack-rate-${i}" class="btn-lg btn-secondary atk-btn" data-attack=${Math.floor(Math.random() * 4)}> <img  src="assets/images/attack_${i}.png" alt="attack image ${i}"> </button>
+        <button type="button" id="attack-rate-${i}" class="btn-lg btn-secondary atk-btn" data-attack=${Math.floor(Math.random() * 5)}> <img  src="assets/images/attack_${i}.png" alt="attack image ${i}"> </button>
         </div>
   `)
 }
